@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Version_2_C
 {
+    //make class sealed to stop inheritance, equivalent to java final for class declarations
     sealed class clsDateComparer : IComparer<clsWork>
     {
         private clsDateComparer() { }
